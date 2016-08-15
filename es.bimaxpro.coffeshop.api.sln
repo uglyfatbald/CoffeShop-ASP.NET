@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4B1CB651-EC5D-4CA9-898B-2751286FF0C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F52B4AD4-3A73-428E-994A-BEA9C84C4438}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "es.bimaxpro.coffeshop.api", "src\es.bimaxpro.coffeshop.api\es.bimaxpro.coffeshop.api.xproj", "{BF35F680-D79B-42DC-AC29-BE3869790C96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF35F680-D79B-42DC-AC29-BE3869790C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF35F680-D79B-42DC-AC29-BE3869790C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF35F680-D79B-42DC-AC29-BE3869790C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF35F680-D79B-42DC-AC29-BE3869790C96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF35F680-D79B-42DC-AC29-BE3869790C96} = {4B1CB651-EC5D-4CA9-898B-2751286FF0C4}
+	EndGlobalSection
+EndGlobal
