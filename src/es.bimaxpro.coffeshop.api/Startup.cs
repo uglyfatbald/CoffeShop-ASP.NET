@@ -34,6 +34,7 @@ namespace es.bimaxpro.coffeshop.api
 
             services.AddLogging();
 
+            // DRM - Configuración de la Cadena de Conexión de la Base de datos
             var connection = Configuration.GetConnectionString("CoffeShopDatabase");
             services.AddDbContext<CoffeShopContext>(options => options.UseSqlServer(connection));
         }
