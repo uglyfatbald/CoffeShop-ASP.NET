@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using es.bimaxpro.coffeshop.api.models;
 using es.bimaxpro.coffeshop.api.valueObjects;
 
+// Clase Controller
+// Se hace cargo del GET, POST y DELETE sobre los pedidos
+// Utiliza el contexto de base de datos directamente
 namespace es.bimaxpro.coffeshop.api.controllers
 {
     [Route("api/[controller]")]
